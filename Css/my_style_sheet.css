@@ -1,0 +1,138 @@
+@font-face {
+    font-family: 'Nosifer';
+    src:url("Nosifer/Nosifer-Regular.ttf") format('truetype');
+    font-style: normal;
+}
+
+.webtitle {
+    font-family: Nosifer,'Lucida Handwriting', 'Monotype Corsiva', 'Brush Script MT', cursive;
+    font-weight: bolder;
+}
+
+.sidenav {
+    top: 0%;
+    right: 0;
+    font-family: 'Segoe UI Black';
+    width: 20%;
+}
+
+.sidenav2 {
+    top: 40px;
+    width: 60%;
+    font-family: 'Segoe UI Black';
+}
+
+.wells,
+.menu,
+.menus,
+.menus2{
+    font-family: 'Cooper Black';
+}
+
+.para {
+    font-size: large;
+}
+
+.citation {
+    font-family: 'Chiller';
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Montserrat", sans-serif
+}
+
+.w3-row-padding img {
+    margin-bottom: 12px
+}
+
+
+/* Set the width of the sidebar to 120px */
+
+.w3-sidebar {
+    width: 120px;
+    background-color: rgb(26, 27, 34);
+}
+
+
+/* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+
+#main {
+    margin-left: 120px
+}
+
+
+/* Remove margins from "page content" on small screens */
+.list {
+    list-style-type: none
+}
+
+/*more added edit */
+
+.sidebar3 {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidebar3 a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidebar3 a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidebar3 .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    margin-left: 50px;
+    font-size: 18px;
+  }
+  
+  .openbtn {
+    font-size: 14px;
+    cursor: pointer;
+    background-color: #111;
+    color: white;
+    border: none;
+  }
+  
+  .openbtn:hover {
+    background-color: #444;
+  }
+
+iframe{
+    border: none;
+    width: 100%;
+    overflow: hidden;
+    height: 680px;
+}

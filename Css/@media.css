@@ -1,0 +1,42 @@
+@media only screen and (min-width: 601px) {
+
+    .main,
+    .paras {
+        width: 80%;
+    }
+
+    .sidenav, .sidenav2,
+    .menu {
+        width: 20%;
+    }
+
+    #myNavbar2,
+    .sidebar3 {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+
+    .menu,
+    .menus,
+    .sidenav,
+    .sidenav2,
+    #myNavbar {
+        display: none;
+    }
+
+    .main,
+    .paras {
+        width: 100%;
+    }
+
+    #main {
+        margin-left: 0
+    }
+}
+/* editing here*/
+@media screen and (max-height: 450px) {
+    .sidebar3 {padding-top: 15px;}
+    .sidebar3 a {font-size: 18px;}
+  }
