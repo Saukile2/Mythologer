@@ -70,8 +70,9 @@
     </div>
 
     <!--js editing in progress -->
-    <div id="mySidebar3" class="sidebar3" style="width:100% !important">
-        <a href="Script/Script.js" class="closebtn" onclick="closeNav()">×</a>
+ <!--editing in progress -->
+    <div id="mySidebar3" class="sidebar3" style="width:50% !important">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
         <a href="../Navigation/Mythologer_default.html"
          class="w3-bar-item w3-hover-theme w3-text-theme w3-button w3-mobile w3-theme-l2" 
          style="font-size:18px !important">Religion Myths</a>
@@ -88,6 +89,17 @@
         class="w3-bar-item w3-hover-theme w3-text-theme w3-button w3-mobile w3-theme-l2"
         style="font-size:18px !important">Extra Posts</a>
     </div>
+
+    <script>
+        function openNav() {
+            document.getElementById("mySidebar3").style.width = "250px";
+        }
+
+        function closeNav() {
+            document.getElementById("mySidebar3").style.width = "0";
+        }
+    </script>
+
 
     <!--editing end-->
 
